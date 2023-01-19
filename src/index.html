@@ -12,9 +12,10 @@
     />
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
+
   <body>
     <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
+      <!-- <h1 class="mt-5">Hello Rigo!</h1>
       <img src="./rigo-baby.jpg" />
       <p class="alert alert-warning mt-4">
         If this text is <b>not</b> centered and <b>yellow</b>, you probably have
@@ -23,7 +24,22 @@
       <div class="fixed-bottom p-4">
         Made with ❤️ by
         <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+      </div> -->
+      <div class="card">
+        <div class="card-header">
+          <div class="header-symbol"></div>
+        </div>
+        <div class="card-body">
+          <div class="body-symbol"></div>
+        </div>
+        <div class="card-footer">
+          <div class="footer-symbol"></div>
+        </div>
       </div>
+      <div id="button-div">
+        <button class="button" onclick="initialConfig();">Click me</button>
+      </div>
+      <script src="app.js"></script>
     </div>
   </body>
 </html>
